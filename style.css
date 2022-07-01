@@ -15,6 +15,7 @@ body{
 .titulo{
   color: var(--cor-textos);
   text-align: center;
+  text-transform: uppercase;
   margin-bottom: 50px;
 }
 
@@ -54,9 +55,8 @@ footer{
 .footer a{
   color: inherit;
   text-decoration: none;
+  text-transform: uppercase;
   font-weight: bold;
-  line-height: 1;
-  letter-spacing: 1px;
   padding: 10px 5px;
 }
 

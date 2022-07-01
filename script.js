@@ -8,8 +8,6 @@ const minutos = (minuto<10) ? `0${minuto}` : minuto;
 let horario = document.getElementById("horario");
 horario.innerHTML = `Agora são ${horas}h${minutos}.`;
 
-console.log(`Hora Atual: ${horas}:${minutos}`);
-
 const imagem = document.querySelector("img");
 const varCss = document.documentElement.style;
 if(hora>=6 && hora<12){
